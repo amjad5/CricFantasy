@@ -1,0 +1,260 @@
+body{
+	height: 100%;
+	background-color:#34649d;
+}
+
+#header-top{
+	height: 70px;
+	background: #444444;
+	color: white;
+	border-bottom-color: 10px solid black;
+}
+
+#header-1{
+	padding: 20px;
+}
+
+#flagtext-div{
+	/*background: url(/images/bg-line1-l.png) no-repeat 0 0 !important;*/
+	background-image: url("../images/bg-line1-l.png");
+	background-size: 100% 100%;
+	background-height: 20px;
+	float: left;
+	width: 200px;
+	min-height: 10px;
+	overflow: hidden;
+
+}
+
+#team-text{
+	padding-top: 10px;
+}
+
+#header{
+	margin: 0px 20px 0 20px;
+}
+
+#flags{
+	background: #cbcbcb;
+	height:29px;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	/*box-shadow: 200px 0px 0px 0px black;*/
+	border-top: 3px groove #686868;
+    box-shadow: 0px 0px 0px 1px #cbcbcb;
+    overflow: hidden;
+    /*border-top-style:groove;*/
+
+}
+
+#flags ul{
+	list-style-type: none;
+}
+
+#flags ul li{
+	margin-left: 1px;
+	display: inline-block;
+}
+
+#social{
+	height:130px;
+	background-color: rgb(218,218,218);
+	margin: 0px 20px 0 20px;
+	border-top: 2px solid white;
+	padding: 0px 60px 0 60px;
+}
+
+#logo-item img{
+	float: right;
+	margin: 30px 0 0 0;
+
+}
+
+#btnSearch{
+	background-color: black !important;
+	color:white;
+}
+
+#search-group{
+	width:200px;
+	float: right;
+}
+
+#social-banner{
+	display: inline;
+	padding:5px;
+	padding-top: 3px;
+	background: -webkit-linear-gradient(#a4a4a4, #9c9c9c);
+    background: linear-gradient(#a4a4a4, #9c9c9c);
+    height: 40px;
+}
+
+#socail-icons{
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+}
+
+#fantasy-box-head{
+	margin-top: 10px;
+	background-color: none;
+	padding:2px;
+	border-top: 2px solid gray;
+	border-left: 2px solid gray;
+}
+
+.container-fluid #main-nav li a{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.container-fluid #main-nav li a:hover{
+	color: #6666ff;
+}
+
+#home-comp{
+	border: 5px solid #859882;
+}
+
+#main-contain{
+	background-image: url("../images/bg-t.png") ;
+	background-size: cover;
+	margin: 0px 35px 0 35px;
+	height: 100%;
+}
+
+#navigation .row .navbar-default{
+	margin: 0px 30px 0px 40px;
+}
+
+#navigation .navbar{
+	margin-bottom: 0px;
+}
+
+#add-banner .row{
+	background-color: transparent;
+	height: 20px;
+	border: 2px solid white;
+}
+
+#add-banner{
+	margin-left: -12px
+}
+
+#main-top{
+	background-image: url("../images/bg7.png");
+	background-color: rgb(132, 191, 43);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid white;
+	margin-left: -52px;
+}
+
+#main-top #players-top{
+	margin-left: 30%;
+	z-index: 1;
+}
+
+.row #bottom-nav li{
+	padding:-5px;
+}
+
+.row #bottom-nav li a{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.row #bottom-nav li a:hover{
+	color: #6666ff;
+}
+
+#main-top .row{
+	margin: 0px 0px 0px 0px;
+	color: white;
+}
+
+#form-signup{
+	background-color: #f2f2f2;
+	border: 5px solid #859882;
+}
+
+#form-signup form table tr{
+	line-height:35px;
+	font-size: 12px;
+}
+
+#competition{
+	background-color: #f2f2f2;
+	color: black !important;
+}
+
+.competition #comp-form table{
+	line-height: 35px;
+}
+
+#comp-form table tr td:first-child {
+	padding-left: 80px;
+}
+
+#add-team {
+	background-color: #f2f2f2;
+	border: 5px solid #859882;
+	color: black !important;
+	line-height:35px;
+	font-size: 12px;
+}
+
+#add-team form table{
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+#add-team form table tr {
+	font-size: 12px;
+}
+
+#add-team form table tr th{
+	padding: 5px;
+	border: 0.5px solid white;
+	background: linear-gradient(to bottom, #eda600 0%, #f09d00 32%, #ea9900 42%, #f49304 47%, #ed7700 53%, #f27501 58%, #ed7403 63%, #ed7804 68%, #ed7600 74%, #f27600 79%, #ef7700 100%);
+}
+
+#add-team form table tr td{
+	padding: 5px;
+	background-color: #e6e5e6;
+	border: 0.5px solid white;
+}
+
+#login #outer{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .6) 31%, rgba(0, 0, 0, .58) 34%, rgba(0, 0, 0, .49) 47%, rgba(0, 0, 0, .11) 83%, rgba(0, 0, 0, 0) 100%);
+	height: 200px;
+	border: 2px inset black;
+	border-radius: 10px;
+}
+#login #inner{
+	padding: 10px;
+}
+
+#login #inner > * {
+    margin: 3px;
+}
+
+#main-login{
+	padding: 5px;
+}
+
+.loginInput{
+	border-radius: 8px;
+	text-indent: 10px;
+	color: black;
+}
+#tNameInput{
+    height: 25px;
+    width: 160px;
+    margin-bottom: 7px;
+    margin-left: 3px;	
+}
+
+#btnCompSelect{
+	margin-top: 20px;
+}
