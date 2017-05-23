@@ -1,6 +1,6 @@
 <?php 
 
-	public class PlrFieldScoreODI
+	public class PlrFieldScoreODI	
 	{
 		$totalPoints = 0;
 

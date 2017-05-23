@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 	$.ajax({type: "GET", url: "../fantasy/getPlayerList.php",
 		dataType:'json',                   
@@ -16,14 +14,6 @@ $(document).ready(function() {
 	            	
 
 	            	if( innerObj.p_spec == "Bat" || innerObj.p_spec == "Mix"){
-/*	            		if(currTeam === preTeam){
-	            		}else{
-	            			preTeam = currTeam;
-	            			teamName = "<option disabled>---"+currTeam+"---</option>";
-		            		$('#bat1').append(teamName);
-		            		$('#bat2').append(teamName);
-		            		$('#bat3').append(teamName);
-	            		}*/
 	            		$('#bat1').append(play_option);
 	            		$('#bat2').append(play_option);
 	            		$('#bat3').append(play_option);
@@ -50,15 +40,21 @@ $(document).ready(function() {
                 console.log('Error Occured');
         	}
     	}	
-	});
+	}); //End Ajax Player list
+
+	$.ajax({type: "GET", url: "../fantasy/show_points.php",
+		dataType:'json',                   
+	    success : function(data) {
+	        if (data.success) {
+	        	console.log(data);
+
+	        	$('#dash_plr_points').append(data.options);
+	        }
+	        else {
+	            console.log('Error Occured');
+	    	}
+		}	
+	}); //End Ajax Player list
+
+
 });
-
-
-
-var objLength = function(obj){    
-    var key,len=0;
-    for(key in obj){
-        len += Number( obj.hasOwnProperty(key) );
-    }
-    return len;
-};

@@ -9,22 +9,12 @@
 	// SQL query to fetch information of registerd competitions.
 
 	$teams = mysql_query('select * from Player', $connection);
-	/*
-	$gujrat = mysql_query("select * from Player where p_team=Gujarat Lions", $connection);
-	$delhi = mysql_query("select * from Player where p_team=Delhi Daredevils", $connection);
-	$hyder = mysql_query("select * from Player where p_team=Sunrisers Hyderabad", $connection);
-	$bang = mysql_query("select * from Player where p_team=Royal Challengers Bangalore", $connection);
-	$punjab = mysql_query("select * from Player where p_team=Kings XI Punjab", $connection);
-	$kolkata = mysql_query("select * from Player where p_team=Kolkata Knight Riders", $connection);
-	$mumbai = mysql_query("select * from Player where p_team=Mumbai Indians", $connection);
-	$pune = mysql_query("select * from Player where p_team=Rising Pune Supergiants", $connection);
-	*/
-
+	
 	$json = array();
 
 	while($row = mysql_fetch_assoc($teams))
 	{
-		$json['p_id'] = $row['p_id'];
+		$json['p_id'] = $row['p_id'] . "_" . $row['p_api_id'];;
 		$json['p_name'] = $row['p_name'];
 		$json['p_spec'] = $row['p_spec'];
 		$json['p_team'] = $row['p_team'];

@@ -12,8 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css"/>
 		<link rel="stylesheet" type="text/css" href="style/sitestyle.css" />
 	</head>
-
-
+	
 	<body>
 		<div class="container-fluid">
 			<div id="header">
@@ -132,47 +131,36 @@
 					</div>
 
 					<div class="row">
-						<div class="col-md-9" id="competition">
-							<h2>ADD TEAM: SELECT A COMPETITION </h2>
-							<p>Please select the competition where you would like to add your new team to:</p>
-							<form action="adduser_comp.php" id="comp-form" method="post">
-								<table>
-									<tr>
-								        <td>
-									        <select name='CompetitionId' id="compDropDown">
-
-									        </select>
-								        </td>
-								    </tr>
-								    <tr>
-								    	<td>
-								    		<button id="btnCompSelect" type="submit" class="btn btn-success">Select A Competition</button>
-								    	</td>
-								    </tr>
-								</table>
-							</form>
+						<div class="col-md-9" id="form-signup">
+						<h4>Dashboard</h4>
+							<table id="dash_plr_points">
+								<tr>
+									<th>Serial No.</th>
+									<th>Points</th>
+								</tr>
+							</table>
 						</div>
-
-						<?php 
-							 // Includes Login Script
-
-							if(isset($_SESSION['login_user'])){
-							echo '<div class="col-md-3" id="login"><div id="outer"><div id="inner"><div class="row">' . $_SESSION['login_user']. '</div><form action="logout.php" method="post" id="main-login"><button class="btn btn-success pull-right" name="submit" type="submit">Logout</button> </form></div></div></div>';
-							}else{
-								echo "Please Signup or Login if you are a registered user!";
-							}
-						?>
-
+							<?php 
+								 // Includes Login Script
+								if(isset($_SESSION['login_user'])){
+								echo '<div class="col-md-3" id="login"><div id="outer"><div id="inner"><div class="row">User Logged in: ' . $_SESSION['login_user']. '</div><form action="logout.php" method="post" id="main-login"><button class="btn btn-success pull-right" name="submit" type="submit">Logout</button> </form></div></div></div>';
+								}
+							?>
 					</div>
 				</div>
 				<div class="col-md-1">
 				</div>
 			</div>
+			<div class="container-fluid">
+				
+			</div>
 		</div>
-		<script type="text/javascript" src="jquery/jquery.min.js" ></script>
-		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="myscripts/myScript.js" ></script>
-	</body>	
-	
+	</body>
+
+	<script type="text/javascript" src="jquery/jquery.min.js" ></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="myscripts/player_list.js" ></script>
 
 </html>
+
+

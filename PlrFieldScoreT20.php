@@ -1,24 +1,20 @@
 <?php 
 
-	public class PlrFieldScoreT20
+	class PlrFieldScoreT20
 	{
-		public function checkCathesFielder($catches){
+		function checkCathesFielder($catches){
 			return $catches * 10;
 		}
 
-		public function checkCathesWK($catches){
-			return $catches * 8; 
-		}
-
-		public function checkStumpsWK($stumps){
+		function checkStumpsWK($stumps){
 			return $stumps * 15; 
 		}
 
-		public function checkRunOuts($runOuts){
+		function checkRunOuts($runOuts){
 			return $runOuts * 10; 
 		}
 
-		public function runRatePerOver($runrate){
+		function runRatePerOver($runrate){
 			if($runrate <= 3.50){
 				return 30;
 			}elseif ($runrate <= 4.50 && $runrate >= 3.51) {

@@ -1,21 +1,19 @@
 <?php 
 
-	public class PlrBatScoreT20
+	class PlrBatScoreT20
 	{
-		
-	$totalPoints = 0;
 
-	public function checkOutBallsFaced($balls, $runs){
-		if(balls == 1 && $runs == 0){
+		function checkOutBallsFaced($balls, $runs){
+		if($balls == 1 && $runs == 0){
 			return -20;
-		}elseif (balls == 2 && $runs == 0) {
+		}elseif ($balls == 2 && $runs == 0) {
 			return -10;
 		}else{
 			return 0;
 		}
 	}
 
-	public function runRatebonus($runrate){
+	function runRatebonus($runrate){
 		if($runrate >= 250){
 			return 60;
 		}elseif ($runrate <= 249.9 & $runrate >= 200) {
@@ -35,7 +33,7 @@
 		}
 	}
 
-	public function allRunsBonus($runs){
+	function allRunsBonus($runs){
 		return $runs * 1;
 	}
 }

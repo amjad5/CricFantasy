@@ -1,12 +1,12 @@
 <?php 
 
-	public class PlrBallScoreT20
+	class PlrBallScoreT20
 	{
-		public function checkMaidenOvers($overs){
+		function checkMaidenOvers($overs){
 			return $overs * 10; 
 		}
 
-		public function runRatePerOver($runrate){
+		function runRatePerOver($runrate){
 			if($runrate <= 3.0){
 				return 40;
 			}elseif ($runrate <= 4.00 && $runrate >= 3.01) {
@@ -24,15 +24,15 @@
 			}elseif ($runrate <= 14.00 && $runrate >=12.01) {
 				return -25;
 			}else{
-				return -30
+				return -30;
 			}
 		}
 
-		public function checkWicketTaken($wickets){
+		function checkWicketTaken($wickets){
 			return $wickets * 30;
 		}
 
-		public function checkWicketHaul($wickets){
+		function checkWicketHaul($wickets){
 			if($wickets == 3){
 				return 40;
 			}
