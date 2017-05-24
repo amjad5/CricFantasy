@@ -1,0 +1,685 @@
+{
+  "creditsLeft": 227,
+  "data": {
+    "team": [
+      {
+        "name": "Kolkata Knight Riders",
+        "players": [
+          {
+            "pid": "27280",
+            "name": "MS Bisla"
+          },
+          {
+            "pid": "28763",
+            "name": "G Gambhir"
+          },
+          {
+            "pid": "45789",
+            "name": "JH Kallis"
+          },
+          {
+            "pid": "32498",
+            "name": "YK Pathan"
+          },
+          {
+            "pid": "35565",
+            "name": "MK Tiwary"
+          },
+          {
+            "pid": "47660",
+            "name": "RN ten Doeschate"
+          },
+          {
+            "pid": "26907",
+            "name": "R Bhatia"
+          },
+          {
+            "pid": "328163",
+            "name": "DB Das"
+          },
+          {
+            "pid": "273439",
+            "name": "SMSM Senanayake"
+          },
+          {
+            "pid": "230558",
+            "name": "SP Narine"
+          },
+          {
+            "pid": "26829",
+            "name": "L Balaji"
+          }
+        ]
+      },
+      {
+        "name": "Royal Challengers Bangalore",
+        "players": [
+          {
+            "pid": "32540",
+            "name": "CA Pujara"
+          },
+          {
+            "pid": "51880",
+            "name": "CH Gayle"
+          },
+          {
+            "pid": "253802",
+            "name": "V Kohli"
+          },
+          {
+            "pid": "44936",
+            "name": "AB de Villiers"
+          },
+          {
+            "pid": "5961",
+            "name": "MC Henriques"
+          },
+          {
+            "pid": "35390",
+            "name": "SS Tiwary"
+          },
+          {
+            "pid": "35731",
+            "name": "R Vinay Kumar"
+          },
+          {
+            "pid": "52912",
+            "name": "R Rampaul"
+          },
+          {
+            "pid": "310958",
+            "name": "A Mithun"
+          },
+          {
+            "pid": "30049",
+            "name": "M Kartik"
+          },
+          {
+            "pid": "390484",
+            "name": "JD Unadkat"
+          }
+        ]
+      }
+    ],
+    "matchStarted": true,
+    "batting": [
+      {
+        "title": "Royal Challengers Bangalore innings",
+        "scores": [
+          {
+            "pid": "32540",
+            "batsman": "CA Pujara",
+            "dismissal-info": "c Balaji b Senanayake",
+            "R": "5",
+            "M": "17",
+            "B": "14",
+            "4s": "0",
+            "6s": "0",
+            "SR": "35.71",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "26829",
+              "name": "L Balaji"
+            }
+          },
+          {
+            "pid": "51880",
+            "batsman": "CH Gayle",
+            "dismissal-info": "st †Bisla b Narine",
+            "R": "33",
+            "M": "57",
+            "B": "36",
+            "4s": "1",
+            "6s": "1",
+            "SR": "91.66",
+            "dismissal": "stumped",
+            "dismissal-by": {
+              "pid": "27280",
+              "name": "MS Bisla"
+            }
+          },
+          {
+            "pid": "253802",
+            "batsman": "V Kohli*",
+            "dismissal-info": "b Kallis",
+            "R": "17",
+            "M": "16",
+            "B": "14",
+            "4s": "2",
+            "6s": "0",
+            "SR": "121.42",
+            "dismissal": "bowled",
+            "dismissal-by": {
+              "pid": "45789",
+              "name": "JH Kallis"
+            }
+          },
+          {
+            "pid": "44936",
+            "batsman": "AB de Villiers†",
+            "dismissal-info": "c †Bisla b Balaji",
+            "R": "28",
+            "M": "37",
+            "B": "22",
+            "4s": "1",
+            "6s": "1",
+            "SR": "127.27",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "27280",
+              "name": "MS Bisla"
+            }
+          },
+          {
+            "pid": "5961",
+            "batsman": "MC Henriques",
+            "dismissal-info": "c Tiwary b Kallis",
+            "R": "11",
+            "M": "21",
+            "B": "11",
+            "4s": "0",
+            "6s": "0",
+            "SR": "100.00",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "35565",
+              "name": "MK Tiwary"
+            }
+          },
+          {
+            "pid": "35390",
+            "batsman": "SS Tiwary",
+            "dismissal-info": "lbw b Narine",
+            "R": "1",
+            "M": "2",
+            "B": "3",
+            "4s": "0",
+            "6s": "0",
+            "SR": "33.33",
+            "dismissal": "lbw",
+            "dismissal-by": {
+              "pid": "230558",
+              "name": "SP Narine"
+            }
+          },
+          {
+            "pid": "35731",
+            "batsman": "R Vinay Kumar",
+            "dismissal-info": "not out",
+            "R": "14",
+            "M": "18",
+            "B": "13",
+            "4s": "1",
+            "6s": "0",
+            "SR": "107.69",
+            "dismissal": "not out"
+          },
+          {
+            "pid": "52912",
+            "batsman": "R Rampaul",
+            "dismissal-info": "lbw b Narine",
+            "R": "0",
+            "M": "5",
+            "B": "3",
+            "4s": "0",
+            "6s": "0",
+            "SR": "0.00",
+            "dismissal": "lbw",
+            "dismissal-by": {
+              "pid": "230558",
+              "name": "SP Narine"
+            }
+          },
+          {
+            "pid": "310958",
+            "batsman": "A Mithun",
+            "dismissal-info": "c Tiwary b Narine",
+            "R": "2",
+            "M": "1",
+            "B": "2",
+            "4s": "0",
+            "6s": "0",
+            "SR": "100.00",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "35565",
+              "name": "MK Tiwary"
+            }
+          },
+          {
+            "pid": "30049",
+            "batsman": "M Kartik",
+            "dismissal-info": "b Balaji",
+            "R": "0",
+            "M": "3",
+            "B": "1",
+            "4s": "0",
+            "6s": "0",
+            "SR": "0.00",
+            "dismissal": "bowled",
+            "dismissal-by": {
+              "pid": "26829",
+              "name": "L Balaji"
+            }
+          },
+          {
+            "pid": "390484",
+            "batsman": "JD Unadkat",
+            "dismissal-info": "not out",
+            "R": "1",
+            "M": "2",
+            "B": "1",
+            "4s": "0",
+            "6s": "0",
+            "SR": "100.00",
+            "dismissal": "not out"
+          },
+          {
+            "pid": "",
+            "batsman": "Extras",
+            "dismissal-info": "(b 1, lb 1, w 1)",
+            "R": "3",
+            "M": "",
+            "B": "",
+            "4s": "",
+            "6s": "",
+            "SR": "",
+            "dismissal": "bowled",
+            "dismissal-by": {
+              "pid": "27280",
+              "name": "MS Bisla"
+            }
+          },
+          {
+            "pid": "",
+            "batsman": "Total",
+            "dismissal-info": "(9 wickets; 20 overs)",
+            "R": "115",
+            "M": "(5.75 runs per over)"
+          }
+        ]
+      },
+      {
+        "title": "Kolkata Knight Riders innings",
+        "scores": [
+          {
+            "pid": "27280",
+            "batsman": "MS Bisla†",
+            "dismissal-info": "c Henriques b Rampaul",
+            "R": "0",
+            "M": "1",
+            "B": "2",
+            "4s": "0",
+            "6s": "0",
+            "SR": "0.00",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "5961",
+              "name": "MC Henriques"
+            }
+          },
+          {
+            "pid": "28763",
+            "batsman": "G Gambhir*",
+            "dismissal-info": "c Gayle b Vinay Kumar",
+            "R": "14",
+            "M": "26",
+            "B": "15",
+            "4s": "3",
+            "6s": "0",
+            "SR": "93.33",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "51880",
+              "name": "CH Gayle"
+            }
+          },
+          {
+            "pid": "45789",
+            "batsman": "JH Kallis",
+            "dismissal-info": "c Henriques b Mithun",
+            "R": "41",
+            "M": "79",
+            "B": "45",
+            "4s": "4",
+            "6s": "0",
+            "SR": "91.11",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "5961",
+              "name": "MC Henriques"
+            }
+          },
+          {
+            "pid": "32498",
+            "batsman": "YK Pathan",
+            "dismissal-info": "lbw b Kartik",
+            "R": "18",
+            "M": "23",
+            "B": "16",
+            "4s": "1",
+            "6s": "1",
+            "SR": "112.50",
+            "dismissal": "lbw",
+            "dismissal-by": {
+              "pid": "30049",
+              "name": "M Kartik"
+            }
+          },
+          {
+            "pid": "35565",
+            "batsman": "MK Tiwary",
+            "dismissal-info": "c Kohli b Vinay Kumar",
+            "R": "24",
+            "M": "35",
+            "B": "27",
+            "4s": "3",
+            "6s": "0",
+            "SR": "88.88",
+            "dismissal": "catch",
+            "dismissal-by": {
+              "pid": "253802",
+              "name": "V Kohli"
+            }
+          },
+          {
+            "pid": "47660",
+            "batsman": "RN ten Doeschate",
+            "dismissal-info": "not out",
+            "R": "11",
+            "M": "14",
+            "B": "7",
+            "4s": "2",
+            "6s": "0",
+            "SR": "157.14",
+            "dismissal": "not out"
+          },
+          {
+            "pid": "26907",
+            "batsman": "R Bhatia",
+            "dismissal-info": "not out",
+            "R": "3",
+            "M": "9",
+            "B": "4",
+            "4s": "0",
+            "6s": "0",
+            "SR": "75.00",
+            "dismissal": "not out"
+          },
+          {
+            "pid": "",
+            "batsman": "Extras",
+            "dismissal-info": "(lb 1, w 4)",
+            "R": "5",
+            "M": "",
+            "B": "",
+            "4s": "",
+            "6s": "",
+            "SR": ""
+          },
+          {
+            "pid": "",
+            "batsman": "Total",
+            "dismissal-info": "(5 wickets; 19.2 overs)",
+            "R": "116",
+            "M": "(6.00 runs per over)"
+          }
+        ]
+      }
+    ],
+    "bowling": [
+      {
+        "title": "Bowling to Royal Challengers Bangalore innings",
+        "scores": [
+          {
+            "pid": "273439",
+            "bowler": "SMSM Senanayake",
+            "O": "4",
+            "M": "0",
+            "R": "18",
+            "W": "1",
+            "Econ": "4.50",
+            "0s": "10",
+            "4s": "1",
+            "6s": "0"
+          },
+          {
+            "pid": "26829",
+            "bowler": "L Balaji",
+            "O": "4",
+            "M": "0",
+            "R": "22",
+            "W": "2",
+            "Econ": "5.50",
+            "0s": "12",
+            "4s": "0",
+            "6s": "1"
+          },
+          {
+            "pid": "230558",
+            "bowler": "SP Narine",
+            "O": "4",
+            "M": "0",
+            "R": "22",
+            "W": "4",
+            "Econ": "5.50",
+            "0s": "11",
+            "4s": "2",
+            "6s": "0"
+          },
+          {
+            "pid": "45789",
+            "bowler": "JH Kallis",
+            "O": "4",
+            "M": "0",
+            "R": "17",
+            "W": "2",
+            "Econ": "4.25",
+            "0s": "10",
+            "4s": "0",
+            "6s": "0"
+          },
+          {
+            "pid": "47660",
+            "bowler": "RN ten Doeschate",
+            "O": "1",
+            "M": "0",
+            "R": "14",
+            "W": "0",
+            "Econ": "14.00",
+            "0s": "1",
+            "4s": "1",
+            "6s": "1"
+          },
+          {
+            "pid": "32498",
+            "bowler": "YK Pathan",
+            "O": "1",
+            "M": "0",
+            "R": "6",
+            "W": "0",
+            "Econ": "6.00",
+            "0s": "1",
+            "4s": "0",
+            "6s": "0"
+          },
+          {
+            "pid": "26907",
+            "bowler": "R Bhatia",
+            "O": "2",
+            "M": "0",
+            "R": "14",
+            "W": "0",
+            "Econ": "7.00",
+            "0s": "1",
+            "4s": "1",
+            "6s": "0"
+          }
+        ]
+      },
+      {
+        "title": "Bowling to Kolkata Knight Riders innings",
+        "scores": [
+          {
+            "pid": "52912",
+            "bowler": "R Rampaul",
+            "O": "4",
+            "M": "1",
+            "R": "17",
+            "W": "1",
+            "Econ": "4.25",
+            "0s": "14",
+            "4s": "1",
+            "6s": "0"
+          },
+          {
+            "pid": "310958",
+            "bowler": "A Mithun",
+            "O": "4",
+            "M": "0",
+            "R": "37",
+            "W": "1",
+            "Econ": "9.25",
+            "0s": "9",
+            "4s": "6",
+            "6s": "0"
+          },
+          {
+            "pid": "390484",
+            "bowler": "JD Unadkat",
+            "O": "4",
+            "M": "0",
+            "R": "27",
+            "W": "0",
+            "Econ": "6.75",
+            "0s": "10",
+            "4s": "4",
+            "6s": "0"
+          },
+          {
+            "pid": "35731",
+            "bowler": "R Vinay Kumar",
+            "O": "3.2",
+            "M": "0",
+            "R": "17",
+            "W": "2",
+            "Econ": "5.10",
+            "0s": "11",
+            "4s": "1",
+            "6s": "0"
+          },
+          {
+            "pid": "30049",
+            "bowler": "M Kartik",
+            "O": "4",
+            "M": "0",
+            "R": "17",
+            "W": "1",
+            "Econ": "4.25",
+            "0s": "15",
+            "4s": "1",
+            "6s": "1"
+          }
+        ]
+      }
+    ],
+    "fielding": [
+      {
+        "scores": [
+          {
+            "pid": "26829",
+            "catch": 1,
+            "lbw": 0,
+            "bowled": 1,
+            "stumped": 0,
+            "name": "L Balaji"
+          },
+          {
+            "pid": "27280",
+            "catch": 1,
+            "lbw": 0,
+            "bowled": 1,
+            "stumped": 1,
+            "name": "MS Bisla"
+          },
+          {
+            "pid": "35565",
+            "catch": 2,
+            "lbw": 0,
+            "bowled": 0,
+            "stumped": 0,
+            "name": "MK Tiwary"
+          },
+          {
+            "pid": "45789",
+            "catch": 0,
+            "lbw": 0,
+            "bowled": 1,
+            "stumped": 0,
+            "name": "JH Kallis"
+          },
+          {
+            "pid": "230558",
+            "catch": 0,
+            "lbw": 2,
+            "bowled": 0,
+            "stumped": 0,
+            "name": "SP Narine"
+          }
+        ],
+        "title": "Fielding for Royal Challengers Bangalore innings"
+      },
+      {
+        "scores": [
+          {
+            "pid": "5961",
+            "catch": 2,
+            "lbw": 0,
+            "bowled": 0,
+            "stumped": 0,
+            "name": "MC Henriques"
+          },
+          {
+            "pid": "30049",
+            "catch": 0,
+            "lbw": 1,
+            "bowled": 0,
+            "stumped": 0,
+            "name": "M Kartik"
+          },
+          {
+            "pid": "51880",
+            "catch": 1,
+            "lbw": 0,
+            "bowled": 0,
+            "stumped": 0,
+            "name": "CH Gayle"
+          },
+          {
+            "pid": "253802",
+            "catch": 1,
+            "lbw": 0,
+            "bowled": 0,
+            "stumped": 0,
+            "name": "V Kohli"
+          }
+        ],
+        "title": "Fielding for Kolkata Knight Riders innings"
+      }
+    ],
+    "man-of-the-match": {
+      "pid": "45789",
+      "name": "JH Kallis"
+    }
+  },
+  "type": "Twenty20",
+  "dateTimeGMT": "2013-05-12 10:30:00",
+  "cache": false,
+  "v": "1",
+  "ttl": 1341,
+  "provider": {
+    "source": "Various",
+    "url": "https://cricapi.com/",
+    "pubDate": "2017-05-23T06:53:49.335Z"
+  }
+}

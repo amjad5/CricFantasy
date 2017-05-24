@@ -1,7 +1,7 @@
 <?php
 
 	session_start();
-	$user_id = (int)$_SESSION['user_id'];
+	$usr_id = intval($_SESSION['user_id']);
 	$reponse;
 	$options = "";
 
@@ -15,19 +15,24 @@
 	// SQL query to fetch information of registerd competitions.
 	$query = mysql_query("SELECT DISTINCT * FROM `Player_Points` AS p LEFT JOIN `Player` AS u ON p.p_api_id = u.p_api_id", $connection);
 
+	$grandTotal = 0;
+
 	while($row = mysql_fetch_assoc($query))
 	{
-		$api_id = $row['p_api_id'];
+		$api_id = intval($row['p_api_id']);
 		//echo $api_id;
+		
+		$user_players = mysql_query("SELECT * FROM User_Player where p_api_id=$api_id AND user_id=$usr_id LIMIT 1", $connection);
 
-		$user_players = mysql_query("SELECT * FROM `User_Player` where p_api_id ='$api_id' AND user_id='$user_id' LIMIT 1", $connection);
-
-		while ($row1 = mysql_fetch_assoc($user_players)) {
-			if(intval($row['points']) != 0 || ! (intval($row['points']) <= 0)){ 
+		if ($user_players){
+			while ($row1 = mysql_fetch_assoc($user_players)) {
 				$options .= '<tr> <td>'. $row['p_name'] .'</td> <td>'. $row['points'] .'</td></tr>';	
+				$grandTotal += intval($row['points']);
 			}
 		}
 	}
+
+	$options .= '<tr> <td>Total</td> <td>'. $grandTotal .'</td></tr>';	
 
 	$response = array(
 		'success' => TRUE,

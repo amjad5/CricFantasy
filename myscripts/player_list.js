@@ -46,7 +46,7 @@ $(document).ready(function() {
 		dataType:'json',                   
 	    success : function(data) {
 	        if (data.success) {
-	        	console.log(data);
+	        	//console.log(data);
 
 	        	$('#dash_plr_points').append(data.options);
 	        }
@@ -56,5 +56,20 @@ $(document).ready(function() {
 		}	
 	}); //End Ajax Player list
 
+	$.ajax({type: "GET", url: "../fantasy/selectedPlayers.php",
+		dataType:'json',                   
+	    success : function(data) {
+	        if (data.success) {
+	        	console.log(data);
 
+	        	$('#dash_team_playersss').append(data.options);
+
+	        	
+	        }
+	        else {
+	            console.log('Error Occured');
+	    	}
+		}	
+	}); //End Ajax Player list
+	
 });

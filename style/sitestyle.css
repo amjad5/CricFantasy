@@ -183,6 +183,11 @@ body{
 	font-size: 12px;
 }
 
+#form-signup table tr{
+	line-height:35px;
+	font-size: 12px;
+}
+
 #competition{
 	background-color: #f2f2f2;
 	color: black !important;
@@ -257,4 +262,8 @@ body{
 
 #btnCompSelect{
 	margin-top: 20px;
+}
+
+#dashboard{
+	color: black !important;
 }
